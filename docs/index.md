@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 我的博客
+  name: 怀瑾的博客
   text: 记录技术、思考与生活
   tagline: 用 Markdown 写作，交给 VitePress 构建，GitHub Pages 免费托管
   actions:

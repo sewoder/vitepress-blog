@@ -36,7 +36,7 @@ const base = process.env.VITEPRESS_BASE || '/'
 export default defineConfig({
   base,
   lang: 'zh-CN',
-  title: '我的博客',
+  title: '怀瑾的博客',
   description: '记录技术、思考与生活',
   cleanUrls: false,
   // lastUpdated: true, // 想显示"最后更新于"时打开；部署工作流已设置 fetch-depth: 0
@@ -59,7 +59,7 @@ export default defineConfig({
     // editLink: { pattern: 'https://github.com/<用户名>/<仓库名>/edit/main/docs/:path', text: '在 GitHub 上编辑此页' },
     footer: {
       message: '基于 VitePress 构建',
-      copyright: `© ${new Date().getFullYear()} 我的博客`
+      copyright: `© ${new Date().getFullYear()} 怀瑾的博客`
     }
   }
 })
